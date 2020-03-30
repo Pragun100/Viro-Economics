@@ -9,4 +9,4 @@ This webpage was built using Flask, HTML, and CSS.
 ### Dashboard:
 https://vir-econ-dash.herokuapp.com/
 
-This dashboard was created using Dash, a python plotting library built off JavaScript. My dashboard includes calls to the Yahoo Finance API to collect time-series data on the S&P 500 since the beginning of 2019. I hope to add more useful graphics in the future. 
+This dashboard was created using Dash, a python plotting library built off JavaScript. My dashboard includes calls to the Yahoo Finance API to collect time-series data on the S&P 500 since the beginning of 2019. The dashboard also includes a stimulus payment calculator for those who would like to see how much they will receive in the coming weeks as a result of the new economic stimulus bill. I hope to add more useful graphics in the future. 
