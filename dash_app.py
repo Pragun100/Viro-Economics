@@ -96,7 +96,7 @@ app.layout = html.Div(
             ], className = "six columns") #end of second graph
 
         ], className = "row"), #end of second row
-
+        # Stimulus Payment Calculator
         html.Div([
             html.H4("Stimulus Payment Check Calculator"),
             #calculator
@@ -127,6 +127,7 @@ app.layout = html.Div(
     ], className = "ten columns offset-by-one")
 )
 
+#Function to compute stimulus payment based on user input
 @app.callback(
     Output('final', 'children'),
     [Input('status', 'value'), Input('children', 'value'), Input('income', 'value')]
