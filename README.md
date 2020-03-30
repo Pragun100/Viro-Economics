@@ -5,3 +5,4 @@ Webpage:
 https://viro-economics.herokuapp.com/
 
 Dashboard:
+https://vir-econ-dash.herokuapp.com/
