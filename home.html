@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+    <meta charset = "utf-8">
+    <title>VIRO-ECONOMICS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+</head>
+
+
+<body>
+
+    <!--Navigation-->
+    <section id = "nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">VIRO-ECONOMICS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#welcome">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://vir-econ-dash.herokuapp.com/" target = "_blank">Dashboard</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Elements
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#overview">Overview</a>
+                    <a class="dropdown-item" href="#past">How Did We Get Here</a>
+                    <a class="dropdown-item" href="#future">What Does the Future Look Like</a>
+                    <a class="dropdown-item" href="#effects">How Does the Outbreak Affect Me</a>
+                    <a class="dropdown-item" href="#stimulus">Stimulus Q&A</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">External Resources</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+
+    <!-- Welcome -->
+    <section id = "welcome">
+        <div class = "container">
+            <div class = "welcome text-center">
+                <h1>Viro-Economics</h1>
+        
+                <p>This web application and associated interactive visual dashboard was designed to provide a comprehensive overview of the 
+                economic effects of the pandemic on a national scale, but also on a personal scale. </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Overview-->
+    <div id = "overview">
+        <br>
+        <br>
+        <h2>Overview</h2>
+        <p>
+            The Coronavirus pandemic is one of unprecedented proportion. With cases growing at an exponential rate,
+            national and local governments alike are urging residents to practice social distancing. Yet, doing so "has severed the flow of goods and people, stalled economies, 
+            and is in the process of delivering
+            a global recession. Economic contagion is now spreading as fast as the disease itself," as Harvard Business Review describes.
+            <br>
+            <br>
+        </p>
+    </div>
+
+    <!--How did we get here?-->
+    <div id = "past">
+        <h2>How Did We Get here?</h2>
+        <p>
+            The US was a <em>LATE</em> actor. They did not successfully contain the spread of the virus when it was in their hands. 
+            The same situation occured in Italy. While the Wuhan province and surrounding areas of China were seriously affected, 
+            China’s quick action to section off remaining parts of the country was successful. 
+            <br>
+            <br>
+            Currently the economic outlook for late actors looks bleak. Politicians, policy makers, and financial markets were all caught off guard. 
+            For example, consensus estimates for initial unemployment claims in the U.S. were around 1.6 million this week, but the figure came in 
+            at 3.28 million — an historically unprecedented figure, about five times greater than the largest weekly increase in the global financial crisis.
+            <br>
+            <br>
+            The virus outbreak presents a unique challenge for policy makers. What we are currently seeing is an immense drop in demand driven by 
+            social distancing. During a negative demand shock, there are well-established steps to take - many of which have already been taken by 
+            the Federal Reserve and the national government. These steps serve one purpose: put more money in the hands of consumers. 
+            <br>
+            <br>
+            However, the current situation is different for <strong>two</strong> reasons. 
+            <ol>
+                <li>Even with more money in their pockets, consumers can't spend as much while engaging in social distancing</li>
+                <li>The outbreak has also damaged serious <em>supply chains</em> in China. A decrease in supply is <strong>difficult</strong> to correct</li>
+            </ol>
+
+        </p>
+    </div>
+
+    <!--What does the future look like?-->
+    <div id = "future">
+        <br>
+        <h2>What Does the Future Look Like?</h2>
+        <!-- <br> -->
+        <h5>ANY economic forecast is dubious right now, because of so many significant unknowns: </h5>
+            <ul>
+                <li>The virus' properties are not fully understood</li>
+                <li>The role of patients who show no symptoms is still imperfectly understood</li>
+                <li>The true rates of infection are uncertain, especially where testing is limited</li>
+                <li>Policy responses will be uneven, often delayed, and there will be missteps</li>
+                <li>The reactions of fimrs and households are uncertain</li>
+            </ul>
+        <p>
+            The key measure is the outbreak's ability to damage the economy's supply-side, specifically capital formation. 
+            When credit intermediation is disrupted and the stock of capital doesn't grow, recovery is slow, workers 
+            exit the workforce, skills are lost, productivity is down. 
+            <br>
+            <br>
+            Countries will react differently based on the <strong>structural resilience </strong>of economies to absorb such shocks 
+            or the possibility of <strong>innovation</strong> by medical researchers and policy makers.
+            <br>
+        </p>
+        <h5>Expected National Effects:</h5>
+            <ul>
+                <li>Universal basic income and mandatory paid sick leave will move to center of policy debates</li>
+                <li>The end of mass quarantine will unleash pent-up intimacy and result in a mini baby-boom</li>
+                <li>A stronger reliance on domestic supply chains, as opposed to international ones</li>
+                <li><strong>The inequality gap will WIDEN</strong></li>
+            </ul>
+            <br>
+    </div>
+
+    <!--How does the outbreak affect different people?-->
+    <div id = "effects">
+        <h2>How Does the Outbreak Affect Different People?</h2>
+        <br>
+        <p>
+            The outbreak affects people differently from an <strong>employment perspective</strong> and from a <strong>socioeconomic perspective.</strong> 
+        </p>
+        <h4>Industries Affected (Negatively and Postively):</h4>
+        <ul> 
+            <li>Most severely affected are ones hurt by social distancing such as the travel, hospitality, and entertainment industries. </li>
+            <li>Somewhat affected are those usually affected by recessions. These include manufacturing, freight transportation, and advertising companies.</li>
+            <li>Some companies will actually be <em>positively</em> affected in this time. These include food retail, some health care companies, and discount brands.</li>
+        </ul>
+        <br>
+        <!--Link dashboard here-->
+        <!-- <a href = "Link" target = "_blank">Click Here to see which economic sectors were hit the HARDEST</a> -->
+        <h4>How the Outbreak Affects the Wealthy, the Middle-Class, and the Poor</h4>
+        <br>
+        <h5>The Wealthy</h5>
+        <p>
+            The wealthiest fifth of Americans have made greater income gains over the lower four-fifths in the recent decades. While they will certainly be 
+            affected by the economic downturn, they are often members of married, highly-educated couples. They commonly live in Internet-ready homes that 
+            will accomodate working from home. Unsurprisingly, many in this demographic don't stand to receive much from the recent economic stimulus bill passed by Congress. 
+            However, if you are willing to help a public charity, you will be able deduct a greater amount of your adjustable annual income based on your contribution,
+            come year-end. 
+        </p>
+        <h5>
+            The Middle-Class
+        </h5>
+        <p>
+            The middle-class, making the majority of the population is beginning to feel the adverse effects of the outbreak. They are grappling with issues that include  
+            necessary child care, layoffs, and unpaid medical leave. Many require assistance during this difficult time and the recent economic stimulus bill is meant to 
+            do just that. While there will general payment checks sent to the majority of Americans, there are also stipulations built in for unemployment benefits, 
+            student loans, and retirement accounts. 
+        </p>
+        <h5>The Poor</h5>
+        <p>
+            Crises like coronavirus can deepen the gap between the haves and have-nots. 
+            Politicians advise quarantine. But there’s a key problem with that advice: A lot of low-income people can’t afford to follow it.
+            Low-income jobs like cooks, nurse’s aids, grocery store clerks, nannies - mostly can’t be done remotely. 
+            In the United States, 90 percent of people whose income is in the top quarter have paid sick leave at work, while only 47 percent of those in the bottom quarter do.
+            <br>
+            <br>
+            if low-income Americans get and spread COVD-19 at a higher rate, <em>it’s bad for EVERYONE.</em>
+            <br>
+            <br>
+            When a health crisis hits entire segments of society, it can set off a cycle in which declining economic status leads to rising rates of chronic illness. 
+            That, in turn, further depresses productivity and raises health care costs, leading to more poverty, which leads to more disease. The best measure the government 
+            can take is to provide this social sector with RELIEF, leading us to the recently passed stimulus bill. 
+        </p>
+    </div>
+
+    <div id = "stimulus">
+        <br>
+        <h2>Stimulus Q&A</h2>
+        <br>
+            <p>
+                <strong>How Much Will I Get?</strong>
+                <br>
+                    I've created a calculator on the dashboard for you to see! Click on "Dashboard" in the Navigation Pane above!
+                <!--Link Dashboard-->
+                <!-- <a href = "Link" target = "_blank">Click Here to Calculate How Much You Will Receive</a> -->
+                <br>
+                <br>
+                <strong>How large will payments be and how are they calculated?</strong>
+                <br>
+                    Most adults will get $1,200, although some would get less. For every qualifying child age 16 or under, the payment will be an additional $500. 
+                    They are based on your income. If you're single and have an adjusted gross income of $75,000 or less, you will recieve the full amount of $1,200. 
+                    For those married filing jointly, earning $150,000 or less will receive a total of $2,400. 
+                <br>
+                <br>
+                <strong>Do college students get anything?</strong>
+                    Not if anyone claims you as a dependent on a tax return. 
+                <br>
+                <br>
+                <strong>What if my recent income made me ineligible, but I anticipate being eligible because of a loss of income in 2020? Do I get a payment? </strong>
+                <br>                    
+                    The plan does not help people in that circumstance now, but you may benefit once you file your 2020 taxes. 
+                    That’s because the payment is technically an advance on a tax credit that is available for the entire year. So it will depend on how much you earn.
+                <br>
+                <br>
+                <strong>
+                    Who will be covered by the expanded program for unemployment benefits?
+                </strong>
+                <br>
+                    The plan wraps in far more workers than are usually eligible for unemployment benefits, including self-employed people and part-time workers.
+                    The bottom line: Those who are unemployed, are partly unemployed or cannot work for a wide variety of coronavirus-related reasons will be more likely to receive benefits.
+                <br>
+                <br>
+                <strong>
+                    The federal government has already waived two months of payments and interest for many federal student loan borrowers. Is there a bigger break now with the new bill?
+                </strong>
+                <br>
+                    Yes. Until Sept. 30, there will be automatic payment suspensions for any student loan held by the federal government. 
+                <br>
+                <br>
+                <strong>
+                    Which retirement account rules are suspended?
+                </strong>
+                <br>
+                For the calendar year 2020, no one will have to take a required minimum distribution from any individual retirement accounts or workplace retirement savings plans, like a 401(k).
+
+            </p>
+    </div>
+</body>
+
+</html>
+
+<!-- <a href = "https://www.wsj.com/articles/house-lawmakers-race-to-washington-to-ensure-coronavirus-stimulus-passes-11585318472?mod=hp_lead_pos1" target = "_blank">Learn More about the Stimulus Bill</a> -->

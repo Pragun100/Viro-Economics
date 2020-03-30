@@ -1,0 +1,58 @@
+*{
+    /* padding: 0;
+    margin: 0; */
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/*Nav Bar*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+
+}
+
+#nav-bar ul li a:hover{
+    color: #00ff00!important;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.nav-link {
+    color: #555!important;
+    font-weight: 600; 
+    font-size:16px;
+}
+
+
+/* #nav-bar{
+    background-image: url(/static/background.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+} */
+
+
+/* Welcome text */
+
+.welcome{
+    padding: 50px 100px;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2)
+}
