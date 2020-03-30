@@ -4,7 +4,7 @@ Repository of code used while building my project for HooHacks 2020. This projec
 ### Webpage:
 https://viro-economics.herokuapp.com/
 
-This webpage was built using Flask, HTML, and CSS.
+This webpage was built using Flask, HTML, and CSS. The Flask app is included in the repo as "app.py"
 
 ### Dashboard:
 https://vir-econ-dash.herokuapp.com/
